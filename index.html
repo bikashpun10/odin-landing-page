@@ -4,57 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ODIN landing page</title>
+    <link rel="stylesheet" href="landing-page.css"/>
 </head>
 <body>
 
     <div class="flex-container">
     <div class="hero-banner">
-        <div class="header">
-            <div class="logo">Header Logo</div>
-            <div class="nav">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+        <div class="container">
+            <div class="header">
+                <div class="logo">Header Logo</div>
+                    <div class="nav">
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
             </div>
-        </div> <!--header end-->
+        </div> <!-- header end -->
+        <div class="container">
         <div class="hero-content">
             <div class="hero-left-text">
                 <h1>This website is awesome</h1>
                 <p>This website has some subtext that goes here</p>
                 <button>Sign Up</button>
             </div>
-            <div class="hero-right-img">
-            </div>
+            <div class="hero-right-img"><img src="img/nature.jpg"></div>
 
         </div>
     </div>
+    </div>
     <div class="text-box">
-        <h2>some random information</h2>
-        <div class="box box1"></div>
-        <div class="box box2"></div>
-        <div class="box box3"></div>
-        <div class="box box4"></div>
+        <div class="container">
+            <h2>some random information</h2>
+            <div class="box-area">
+                    <div class="box box1"></div>
+                    <div class="box box2"></div>
+                    <div class="box box3"></div>
+                    <div class="box box4"></div>
+                </div> 
+         </div>
     </div> <!--end of text box-->
 
     <div class="testimonials">
-        <p>This is an inspiring quote, or a testimonial from customer. Maybe
-            it's just filling up space, or maybe people will actually read it.
-            Who knows? All i know is that it looks nice.
-        </p>
-        <div class="name">-Thor, God of Thunder</div>
+        <div class="container">
+            <p>This is an inspiring quote, or a testimonial from customer. Maybe
+                it's just filling up space, or maybe people will actually read it.
+                Who knows? All i know is that it looks nice.
+            </p>
+            <div class="name">-Thor, God of Thunder</div>
+        </div>
     </div>
 
     <div class="cta-sec">
-        <div class="cta-box">
-            <div class="cta-left">
-                <h2 class="heading">Call to action it's time!</h2>
-                <p class="cta-content">Sign up for our product by clicking that button right over there!</p>
-            </div>
-            <div class="cta-right">
-                <button>Sign Up</button>
-            </div>
+        <div class="container">        
+                <div class="cta-box">
+                    <div class="cta-left">
+                        <h2 class="heading">Call to action it's time!</h2>
+                        <p class="cta-content">Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <div class="cta-right">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
         </div>
     </div>
     <div class="footer">
